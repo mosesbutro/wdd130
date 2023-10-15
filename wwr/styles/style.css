@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -19,12 +22,19 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: antiquewhite;
 }
 body {
     background-color: #588157;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #A3B18A;
@@ -37,11 +47,19 @@ nav a:hover {
     background-color: aquamarine;
     color: blueviolet;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: aquamarine;
     color: blueviolet;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: aliceblue;
@@ -53,22 +71,35 @@ nav a:hover {
 }
 .msg {
     background-color: #A3B18A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #A3B18A;
-    color: black;    
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;    
 }
 .home-title{
     color: black;
+    font-family: Righteous;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: white;
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: white;
+    font-family: Righteous;
 }
 .msg p {
-    color: black;
+    color: whitesmoke;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 footer a {
     color: yellow;
@@ -80,8 +111,12 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -91,4 +126,18 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #A3B18A;
+}
+.mountains {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    margin: 150px 0;
 }
