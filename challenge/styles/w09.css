@@ -1,0 +1,38 @@
+#content {
+    max-width: 300px;
+    margin: 0;
+}
+#hero {
+    padding-bottom: 30px;
+}
+main h1, h4, p {
+    text-align: center;
+}
+p {
+    padding: 0px 20px 50px; 
+    text-align: justify;
+}
+.page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    column-gap: 5px;
+    height: 100px;
+}
+.read {
+    text-align: center; 
+}
+.views {
+    text-align: center;
+}
+.comments {
+    text-align: center;
+}
+h4 {
+    color: #A3B18A;
+}
+body {
+    background-color: whitesmoke;
+}
+
+
