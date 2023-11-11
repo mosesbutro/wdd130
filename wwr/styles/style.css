@@ -209,7 +209,19 @@ nav {
     text-align: justify;
     padding: 0px 25px;
 }
-#background-river {
+#background-river1 {
+    height: 685px;
+    background-color: antiquewhite;
+    grid-column: 1/6;
+    grid-row: 1/6;
+}
+#background-river2 {
+    height: 685px;
+    background-color: antiquewhite;
+    grid-column: 1/6;
+    grid-row: 1/6;
+}
+#background-river3 {
     height: 685px;
     background-color: antiquewhite;
     grid-column: 1/6;
