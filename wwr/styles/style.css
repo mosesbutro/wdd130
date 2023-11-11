@@ -222,6 +222,7 @@ nav {
 }
 .salmon-msg p {
     text-align: justify;
+    line-height: 1em;
 }
 .salmon-img {
     margin: 100px 80px;
@@ -242,6 +243,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 50px 0px;
+    gap: 50px;
 }
 .gray-msg {
     padding: 10px 50px 10px 100px;
@@ -264,6 +266,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 100px 0px;
+    gap: 50px;
 }
 .grand-msg {
     padding: 10px 50px 10px 100px;
@@ -286,6 +289,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 50px 0px -100px;
+    gap: 50px;
 }
 
 
