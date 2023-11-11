@@ -341,7 +341,13 @@ nav {
     #background {
         display: none;
     }
-    #background-river {
+    #background-river1 {
+        display: none;
+    }
+    #background-river2 {
+        display: none;
+    }
+    #background-river3 {
         display: none;
     }
     .mountains, .msg {
