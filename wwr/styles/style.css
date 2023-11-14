@@ -361,7 +361,7 @@ form {
   
   .button {
     /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 98px; /* same size as the label elements */
   }
   
   button {
