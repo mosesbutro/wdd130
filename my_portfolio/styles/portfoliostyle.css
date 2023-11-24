@@ -322,6 +322,7 @@ form {
     background-color: #6C6F7D;
     margin-left: 740px;
     margin-top: -300px;
+    margin-bottom: -100px;
   }
   
   ul {
@@ -402,8 +403,7 @@ form {
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 2px solid mediumspringgreen;
-    width: 200px;
+    width: 250px;
     margin: 50px;
 }
 .media {
@@ -411,4 +411,8 @@ form {
 }
 .media img {
     padding: 10px;
+}
+.info img {
+    width: 60px;
+    padding: 5px;
 }
