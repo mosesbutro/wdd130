@@ -325,7 +325,7 @@ form {
     margin-bottom: -100px;
   }
   
-  ul {
+  form ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -334,7 +334,11 @@ form {
   form li + li {
     margin-top: 1em;
   }
-  
+  ul {
+    list-style-type: square;
+    
+  }
+
   label {
     /* Uniform size & alignment */
     display: inline-block;
@@ -416,6 +420,7 @@ form {
     width: 60px;
     padding: 5px;
 }
+
 .profile-img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
