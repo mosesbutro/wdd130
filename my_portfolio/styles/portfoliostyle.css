@@ -198,6 +198,7 @@ footer .social img {
 .dietician p {
     color: white;
     font-family: Raleway;
+    text-align: left;
 }
 .school {
     padding: 16px;
@@ -209,6 +210,7 @@ footer .social img {
 }
 .school p {
     color: white;
+    text-align: left;
 }
 
 .profile-msg h2 {
