@@ -4,6 +4,7 @@
 }
 #hero {
     padding-bottom: 30px;
+    
 }
 main h1, h4, p {
     text-align: center;
@@ -15,18 +16,26 @@ p {
 .page-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: blue;
+    background-color: rgb(60, 60, 227);
     column-gap: 5px;
-    height: 100px;
+    height: 90px;
 }
 .read {
-    text-align: center; 
+    margin-top: 15px;
+    text-align: center;
+    line-height: 0.3em;
+    border-right: 1px solid white;
 }
 .views {
+    margin-top: 15px;
     text-align: center;
+    line-height: 0.3em;
+    border-right: 1px solid white;
 }
 .comments {
+    margin-top: 15px;
     text-align: center;
+    line-height: 0.3em;
 }
 h4 {
     color: #A3B18A;
